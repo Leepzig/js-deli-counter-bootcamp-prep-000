@@ -30,7 +30,7 @@ function currentLine (lineArr) {
     let message = "The line is currently: "
     lineArr.forEach(function(item, index) {
       if (index === (lineArr.length - 1)) {
-        message += (index + 1 + ". " + item + ".")
+        message += (index + 1 + ". " + item)
     } else {
         message += (index + 1 + ". " + item + ", ")
       }
