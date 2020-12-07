@@ -43,4 +43,4 @@ function currentLine (lineArr) {
 //console.log(deliLine)
 console.log(nowServing(deliLine))
 
-console.log(currentLine(emptyArr))
+console.log(currentLine(deliLine))
