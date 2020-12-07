@@ -1,4 +1,5 @@
 var deliLine = ['Grace', 'Toby', 'Rick']
+var emptyArr =[]
 
 //adds a new person to the line and returns a welcome message with their position in line.
 
@@ -38,4 +39,4 @@ function currentLine (lineArr) {
 //console.log(deliLine)
 console.log(nowServing(deliLine))
 
-console.log(currentLine(deliLine))
+console.log(currentLine(emptyArr))
