@@ -28,7 +28,7 @@ function currentLine (lineArr) {
      return "The line is currently empty."
   } else {
     lineArr.forEach(function(item, index) {
-      message += index + 1 + ". " + item + " "
+      message += index + 1 + ". " + item + ", "
     })
     return message
   }
