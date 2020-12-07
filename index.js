@@ -29,10 +29,13 @@ function currentLine (lineArr) {
      return "The line is currently empty."
   } else {
     lineArr.forEach(function(item, index) {
-      if (index === (lineArr.length - 1))
-      message += index + 1 + ". " + item + "."
+      if (index === (lineArr.length - 1)) {
+        message += index + 1 + ". " + item + "."
+      } else {
+        message += index + 1 + ". " + item + ", "
+      }
+      return message
     })
-    return message
   }
 }
 
