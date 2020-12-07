@@ -21,16 +21,17 @@ function nowServing(lineArr) {
 
  //missing commas in between
  //prints the name and place of each person in line
+ //message is stuck as the line is currenty:
 function currentLine (lineArr) {
-  var message = "The line is currently: "
+  let message = "The line is currently: "
   if (lineArr[0] === false) {
-     message = "The line is currently empty."
+     return "The line is currently empty."
   } else {
     lineArr.forEach(function(item, index) {
       message += index + 1 + ". " + item + " "
     })
+    return message
   }
-  return message
 }
 
 //console.log(takeANumber(deliLine, "Bob"))
