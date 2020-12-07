@@ -14,7 +14,7 @@ function takeANumber(lineArr, name) {
 function nowServing(lineArr) {
   var nextInLine = lineArr.shift()
   if (typeof(nextInLine) === 'string') {
-    return nextInLine 
+    return `Currently serving ${nextInLine}.`
   } else {
     return "There is nobdy waiting to be served!"
   }
