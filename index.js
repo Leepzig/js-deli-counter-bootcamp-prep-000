@@ -26,16 +26,16 @@ function nowServing(lineArr) {
 function currentLine (lineArr) {
   if (typeof(lineArr[0]) !== 'string') {
      return "The line is currently empty."
-  } else {
+} else {
     let message = "The line is currently: "
     lineArr.forEach(function(item, index) {
       if (index === (lineArr.length - 1)) {
-        message += index + 1 + ". " + item + "."
-      } else {
-        message += index + 1 + ". " + item + ", "
+        message += (index + 1 + ". " + item + ".")
+    } else {
+        message += (index + 1 + ". " + item + ", ")
       }
-      return message
     })
+    return message
   }
 }
 
