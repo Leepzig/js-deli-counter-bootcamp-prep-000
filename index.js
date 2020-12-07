@@ -16,7 +16,7 @@ function nowServing(lineArr) {
   if (typeof(nextInLine) === 'string') {
     return `Currently serving ${nextInLine}.`
   } else {
-    return "There is nobdy waiting to be served!"
+    return "There is nobody waiting to be served!"
   }
 }
 
