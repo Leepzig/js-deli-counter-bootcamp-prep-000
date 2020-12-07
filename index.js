@@ -24,10 +24,10 @@ function nowServing(lineArr) {
  //prints the name and place of each person in line
  //message is stuck as the line is currenty:
 function currentLine (lineArr) {
-  let message = "The line is currently: "
-  if (lineArr[0] === false) {
+  if (typeof(lineArr[0]) !== 'string') {
      return "The line is currently empty."
   } else {
+    let message = "The line is currently: "
     lineArr.forEach(function(item, index) {
       if (index === (lineArr.length - 1)) {
         message += index + 1 + ". " + item + "."
