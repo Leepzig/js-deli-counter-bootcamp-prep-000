@@ -41,6 +41,6 @@ function currentLine (lineArr) {
 
 //console.log(takeANumber(deliLine, "Bob"))
 //console.log(deliLine)
-console.log(nowServing(deliLine))
+//.log(nowServing(deliLine))
 
-console.log(currentLine(deliLine))
+//console.log(currentLine(deliLine))
